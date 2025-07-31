@@ -1,5 +1,3 @@
-✅ Task-by-Task Script Examples
-
 ### 0. Create alias `ls="rm *"`
 **File:** `0-alias`
 ```bash
@@ -101,20 +99,3 @@ for a in {a..z};do for b in {a..z};do [[ $a$b != oo ]]&&echo $a$b;done;done
 #!/bin/bash
 printf "%.2f\n" "$NUM"
 ```
-
----
-
-✅ **Tips for Submission**
-
-- Make each file executable:
-    ```bash
-    chmod +x filename
-    ```
-- Use `wc -l filename` to ensure each file has exactly 2 lines.
-- Write a `README.md` at the root (`0x03-shell_variables_expansions/`) describing what each script does.
-- Push to GitHub:
-    ```bash
-    git add .
-    git commit -m "Complete Shell Variables & Expansions tasks"
-    git push
-    ```
